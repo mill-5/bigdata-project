@@ -1,0 +1,28 @@
+# 실행
+    streamlit run 파일명
+    python 파일명.py
+
+# 경로설정
+    이동 : cd 폴더명
+    상위이동 : cd ..
+# venv
+    활성화 : .\venv\Scripts\Activate.ps1
+    오류 : Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process 
+            (보안정책을 잠시 풀겠다는)
+
+
+# git 
+    git add .
+    git commit -m "어떤 작업 했는지"
+    git push origin main
+         안되면 -> git push origin master
+
+    로그인 - git config --global user.email "sympathy0513@naver.com"
+            git config --global user.name "misong kim"
+
+# pip install 
+# pip streamlit (윈도우 창으로 뜨는거 실행하기 위해서)
+
+
+streamlit run 파일명
+
