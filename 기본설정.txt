@@ -2,6 +2,22 @@
     streamlit run 파일명
     python 파일명.py
 
+# 주피터랩 설치 + 실행
+    #jupyterlab
+        pip install jupyterlab 
+    #분석 패키지 설치
+        pip install pandas numpy plotly streamlit
+    # jupyterlab 실행
+    jupyter lab
+        # → http://localhost:8888/lab 자동 열림
+
+--port=8889 포트 변경
+--no-browser 브라우저 자동 실행 안 함
+--notebook-dir=경로 시작 디렉토리 지정
+종료 = 터미널에서 Ctrl+C 두 번
+좌측 파일 트리에서 BigDataAnalysis/7_week/ 로 이동 → 
+                                            .ipynb 더블클릭
+
 # 경로설정
     이동 : cd 폴더명
     상위이동 : cd ..
@@ -25,4 +41,6 @@
 
 
 streamlit run 파일명
+
+??
 
